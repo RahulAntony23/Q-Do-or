@@ -12,17 +12,17 @@
     <include layout="@layout/toolbar" />
 
     <FrameLayout
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:id="@+id/idFLQRCode"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp" >
+        android:layout_marginTop="100dp" >
 
 
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:background="@color/white"
             android:id="@+id/idIVQRCode"/>
 
@@ -52,7 +52,7 @@
         android:layout_marginRight="20dp"
         android:id="@+id/idETQRGen"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="Enter your Special ID"
+        android:hint="Enter your Room Number"
         android:padding="10dp"
         android:textColorHint="@color/white">
 
@@ -90,10 +90,10 @@
         android:layout_below="@+id/idBtnGenerate"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="87dp"
+        android:layout_marginTop="27dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:text="Log Out" />
+        android:text="Close QR" />
 
 
 </RelativeLayout>
